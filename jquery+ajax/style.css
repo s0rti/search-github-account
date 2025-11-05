@@ -1,0 +1,91 @@
+#search {
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.404);
+    color: rgba(0, 0, 0, 0.478);
+    backdrop-filter: blur(4px);
+    font-size: 40px;
+    transition: 0.2s all;
+    margin-bottom: 20px;
+}
+
+#search:hover {
+    background-color: rgb(255, 255, 255);
+    transition: 0.3s all;
+    color: rgb(0, 0, 0);
+}
+
+#search_button {
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.48);
+    color: rgba(0, 0, 0, 0.478);
+    backdrop-filter: blur(4px);
+    font-size: 25px;
+    transition: 0.2s all;
+    margin-bottom: 20px;
+}
+
+#search_button:hover {
+    background-color: rgb(255, 255, 255);
+    transition: 0.3s all;
+    color: rgb(0, 0, 0);
+}
+
+.but {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+html {
+    font-family: sans-serif;
+    background: linear-gradient(55deg, rgba(40, 156, 201, 1) 0%, rgba(19, 34, 110, 1) 50%, rgba(18, 50, 196, 1) 100%);
+    background-repeat: no-repeat;
+    min-height: 100%;
+}
+
+
+
+.firstDiv {
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+
+}
+
+.styleP {
+    display: flex;
+    justify-content: center;
+}
+
+.firstDiv img {
+    border-radius: 10px;
+}
+
+.firstDiv a {
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.secondDiv {
+    background-color: rgba(61, 73, 130, 0.658);
+    display: flex;
+    backdrop-filter: blur(20px);
+    flex-direction: column;
+    padding: 15px;
+    justify-content: center;
+    align-content: center;
+    border-radius: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
